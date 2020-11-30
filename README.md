@@ -26,7 +26,7 @@ _`activate.bat` for Windows and `activate` for Bash_
 ### Run
 
 1. Open your terminal
-2. Activate virtual environment using `. venv/Scripts/activate` or `. venv/Scripts/activate.bat` (according tp your terminal)
+2. Activate virtual environment using `. venv/Scripts/activate` or `. venv/Scripts/activate.bat` (according to your terminal)
 3. Then run `python main.py` to start the app
 
 Your library manager is now ready! For future use, just navigate to the project folder and run the above commands again.
