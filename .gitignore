@@ -1,5 +1,7 @@
 venv/
+.idea/
 .vscode/
 .ipynb_checkpoints/
 __pycache__/
+test/
 library.csv

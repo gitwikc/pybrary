@@ -8,6 +8,7 @@ def main():
     menu_flow({
         'New': library.create_new_book,
         'View': library.view_all_books,
+        'Graphs': library.view_graphs(),
         'Update': library.update_library(),
         'Delete': library.delete_book
     })

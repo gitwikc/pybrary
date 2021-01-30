@@ -8,7 +8,7 @@ def get_data() -> pd.DataFrame:
     try:
         return pd.read_csv('library.csv')
     except FileNotFoundError as ex:
-        return pd.DataFrame(columns=['name', 'author', 'genre', 'copies_total', 'copies_avail'])
+        return pd.DataFrame(columns=['name', 'author', 'genre', 'copies_total', 'copies_avail', 'reads'])
 
 
 def save_data(df: pd.DataFrame) -> None:
