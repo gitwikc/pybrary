@@ -40,7 +40,7 @@ class Library:
         def borrow_book():
             # Print all available books
             available = self.df[self.df.copies_avail > 0]
-            print(available)
+            print(available[['name', 'author', 'genre']])
             choice = -1
             while choice not in available.index:
                 choice = prompt('Choose a book (index):', int)
@@ -52,7 +52,7 @@ class Library:
         def return_book():
             # Print all available books
             available = self.df[self.df.copies_avail < self.df.copies_total]
-            print(available)
+            print(available[['name', 'author', 'genre']])
             choice = -1
             while choice not in available.index:
                 choice = prompt('Choose a book (index):', int)

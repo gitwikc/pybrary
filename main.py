@@ -10,7 +10,8 @@ def main():
         'View': library.view_all_books,
         'Graphs': library.view_graphs(),
         'Update': library.update_library(),
-        'Delete': library.delete_book
+        'Delete': library.delete_book,
+        'Save': lambda: save_data(library.df)
     })
     save_data(library.df)
 
