@@ -11,7 +11,7 @@ def main():
         'Graphs': library.view_graphs(),
         'Update': library.update_library(),
         'Delete': library.delete_book,
-        'Save': lambda: save_data(library.df)
+        'Save': lambda: save_data(library.df, verbose=True)
     })
     save_data(library.df)
 

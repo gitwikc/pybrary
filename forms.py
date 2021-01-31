@@ -15,8 +15,9 @@ def prompt(prompt_message: str, input_type, left_indent=24) -> str:
         return user_input
 
 
-def form(form_fields: dict, header: str) -> dict:
-    """ Displays a form for the user to fill
+def form(form_fields: dict, header: str = "Form") -> dict:
+    """
+    Displays a form for the user to fill
 
     :param form_fields: A dict containing field names and field data types as key-value pairs
     :param header: The header of the form
@@ -25,9 +26,6 @@ def form(form_fields: dict, header: str) -> dict:
     print(header.center(40))
     filled_form = {}
     for field in form_fields:
-        field_name: str
-        field_prompt: str
-
         if type(field) is tuple:
             field_name, field_prompt = field
         else:
@@ -39,7 +37,8 @@ def form(form_fields: dict, header: str) -> dict:
 
 
 def menu(menu_items, header='MENU'):
-    """ Displays a menu for the user to choose from
+    """
+    Displays a menu for the user to choose from
 
     :param menu_items: A list containing all menu items
     :param header: The menu header
