@@ -4,4 +4,3 @@ venv/
 .ipynb_checkpoints/
 __pycache__/
 test/
-library.csv

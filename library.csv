@@ -1,0 +1,28 @@
+name,author,genre,copies_total,copies_avail,reads
+NCERT Physics,NCERT,Academic,120,120,107
+NCERT Chemistry,NCERT,Academic,120,120,188
+NCERT Maths,NCERT,Academic,120,120,173
+Flamingo,NCERT,Academic,90,89,41
+Vistas,NCERT,Academic,90,90,131
+Oxford Dictionary,Oxford,Reference,30,30,82
+Concepts Of Physics,H C Verma,Reference,80,80,170
+Organic Chemistry,M S Chouhan,Reference,75,75,1
+Differential Calculus,Amit Agarwal,Reference,60,59,38
+Harry Potter 1,J K Rowling,Fantasy,70,70,4
+Harry Potter 2,J K Rowling,Fantasy,58,58,118
+Harry Potter 3,J K Rowling,Fantasy,73,69,41
+Harry Potter 4,J K Rowling,Fantasy,84,84,69
+Harry Potter 5,J K Rowling,Fantasy,30,30,87
+Harry Potter 6,J K Rowling,Fantasy,45,45,143
+Harry Potter 7,J K Rowling,Fantasy,7,7,140
+Percy Jackson 1,Rick Riordan,Fantasy,38,38,2
+Percy Jackson 2,Rick Riordan,Fantasy,33,33,145
+The Return Of Sherlock Holmes, Sir A C Doyle, Crime,60,60,152
+Hound Of The Baskervilles, Sir A C Doyle, Crime,53,53,151
+Sign Of The Four, Sir A C Doyle, Crime,20,20,71
+Journey To The Center Of The Earth, Jules Verne, Sci-Fi,25,25,70
+From The Earth To The Moon, Jules Verne, Sci-Fi,17,17,8
+20k Leagues Under The Sea, Jules Verne, Sci-Fi,70,70,133
+Napoleon: A Life,Andrew Roberts,Biography,15,14,1
+Mein Kampf,Adolf Hitler,Biography,42,39,3
+Steve Jobs,Walter Isaacson,Biography,25,24,1

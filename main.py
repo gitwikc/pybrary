@@ -14,6 +14,7 @@ def main():
         'Save': lambda: save_data(library.df, verbose=True)
     })
     save_data(library.df)
+    print("\N{winking face} Don't forget to leave a star on GitHub https://github.com/gitwikc/pybrary")
 
 
 if __name__ == "__main__":
